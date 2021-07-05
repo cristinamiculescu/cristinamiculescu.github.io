@@ -1,0 +1,42 @@
+html {
+    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+  }
+
+  h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+  html {
+    background-color:#F385E3;
+  }
+
+  body {
+    width: 600px;
+    margin: 0 auto;/*margin= first:top+bottom, second:left+right*/ /* atuto is a special value tahat devides the horizontal space evenly*/
+    background-color: #FCE3F8;
+    padding: 0 20px 20px 20px;/*padding= firstvalue:top second:right third:left forth:bottom*/
+    border: 7px solid #800E6B;/*border=sets the values for width, style and color  */
+  }
+  
+  h1 {
+    margin: 0;/*here we overwrite the browser's default styling*/
+    padding: 20px 0;/*first:top+bottom, second:left+right*/
+    color: #800E6B;
+    text-shadow: 3px 3px 1px black;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  /*so that we can center the image we can't use the same trick as by body("auto") directly
+  body are block elements->takes up space on the page
+  image is a inline element->  we must give the image block level behavior */  
